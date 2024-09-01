@@ -1,0 +1,36 @@
+[1.036s] Invoking command in '/home/cagla/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/cagla/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/cagla/ros2_ws/build/my_robot_controller/build install --record /home/cagla/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[1.351s] running egg_info
+[1.351s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.351s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.351s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.351s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.352s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.354s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.358s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.358s] running build
+[1.358s] running build_py
+[1.358s] copying my_robot_controller/my_first_node.py -> /home/cagla/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.358s] copying my_robot_controller/draw_circle.py -> /home/cagla/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.359s] copying my_robot_controller/turtle_controller.py -> /home/cagla/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.359s] copying my_robot_controller/pose_subscriber.py -> /home/cagla/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.359s] running install
+[1.359s] running install_lib
+[1.359s] copying /home/cagla/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.361s] copying /home/cagla/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.361s] copying /home/cagla/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/turtle_controller.py -> /home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.361s] copying /home/cagla/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/pose_subscriber.py -> /home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.361s] byte-compiling /home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[1.362s] byte-compiling /home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[1.365s] byte-compiling /home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_controller.py to turtle_controller.cpython-310.pyc
+[1.365s] byte-compiling /home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[1.365s] running install_data
+[1.365s] running install_egg_info
+[1.365s] removing '/home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.368s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[1.368s] running install_scripts
+[1.395s] Installing draw_circle script to /home/cagla/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.396s] Installing pose_subscriber script to /home/cagla/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.397s] Installing test_node script to /home/cagla/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.397s] Installing turtle_controller script to /home/cagla/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.397s] writing list of installed files to '/home/cagla/ros2_ws/build/my_robot_controller/install.log'
+[1.427s] Invoked command in '/home/cagla/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/cagla/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/cagla/ros2_ws/build/my_robot_controller/build install --record /home/cagla/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
