@@ -1,0 +1,398 @@
+[0.000000] (-) TimerEvent: {}
+[0.000416] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000514] (add_integers) JobQueued: {'identifier': 'add_integers', 'dependencies': OrderedDict([('custom_interfaces', '/home/cagla/sercli_ws/install/custom_interfaces')])}
+[0.000546] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.010483] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.011324] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/cagla/sercli_ws/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/cagla/sercli_ws/install/custom_interfaces'], 'cwd': '/home/cagla/sercli_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cagla'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cagla/sercli_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cagla'), ('OLDPWD', '/home/cagla'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '895'), ('SYSTEMD_EXEC_PID', '1065'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '32752'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/cagla/sercli_ws/install:/home/cagla/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cagla'), ('JOURNAL_STREAM', '8:8723'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cagla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cagla-VirtualBox:@/tmp/.ICE-unix/1045,unix/cagla-VirtualBox:/tmp/.ICE-unix/1045'), ('INVOCATION_ID', 'f86543862ab24cccb7ea7e03a13c45e3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AT9RS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cagla/sercli_ws/install/add_integers:/home/cagla/sercli_ws/install/custom_interfaces:/home/cagla/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8e2d1f69-acb1-4a64-a54d-8abf22934454'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cagla/sercli_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cagla/sercli_ws/install/add_integers/lib/python3.10/site-packages:/home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cagla/sercli_ws/install/custom_interfaces:/home/cagla/sercli_ws/install/add_integers:/home/cagla/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.091504] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100103] (-) TimerEvent: {}
+[0.166419] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.173149] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.202957] (-) TimerEvent: {}
+[0.303342] (-) TimerEvent: {}
+[0.316100] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.329210] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.333037] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.333274] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.339704] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.403780] (-) TimerEvent: {}
+[0.469830] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.478861] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.479293] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.480380] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.485703] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.504031] (-) TimerEvent: {}
+[0.605367] (-) TimerEvent: {}
+[0.660269] (custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.705518] (-) TimerEvent: {}
+[0.751018] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.756115] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.761953] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.805901] (-) TimerEvent: {}
+[0.825956] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.906073] (-) TimerEvent: {}
+[1.007199] (-) TimerEvent: {}
+[1.108507] (-) TimerEvent: {}
+[1.196666] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.209159] (-) TimerEvent: {}
+[1.310862] (-) TimerEvent: {}
+[1.402068] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.411207] (-) TimerEvent: {}
+[1.512496] (-) TimerEvent: {}
+[1.612909] (-) TimerEvent: {}
+[1.690432] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.712004] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.713041] (-) TimerEvent: {}
+[1.713861] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.739932] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.740573] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.741861] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.741972] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.764888] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.813376] (-) TimerEvent: {}
+[1.816258] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.844051] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.844356] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.844451] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.885066] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.893247] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/cagla/sercli_ws/build/custom_interfaces\n'}
+[1.903859] (custom_interfaces) CommandEnded: {'returncode': 0}
+[1.904505] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[1.904565] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cagla/sercli_ws/build/custom_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/cagla/sercli_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cagla'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cagla/sercli_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cagla'), ('OLDPWD', '/home/cagla'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '895'), ('SYSTEMD_EXEC_PID', '1065'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '32752'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/cagla/sercli_ws/install:/home/cagla/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cagla'), ('JOURNAL_STREAM', '8:8723'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cagla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cagla-VirtualBox:@/tmp/.ICE-unix/1045,unix/cagla-VirtualBox:/tmp/.ICE-unix/1045'), ('INVOCATION_ID', 'f86543862ab24cccb7ea7e03a13c45e3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AT9RS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cagla/sercli_ws/install/add_integers:/home/cagla/sercli_ws/install/custom_interfaces:/home/cagla/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8e2d1f69-acb1-4a64-a54d-8abf22934454'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cagla/sercli_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cagla/sercli_ws/install/add_integers/lib/python3.10/site-packages:/home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cagla/sercli_ws/install/custom_interfaces:/home/cagla/sercli_ws/install/add_integers:/home/cagla/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[1.913469] (-) TimerEvent: {}
+[1.949815] (custom_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.971861] (custom_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.013691] (-) TimerEvent: {}
+[2.114367] (-) TimerEvent: {}
+[2.216229] (-) TimerEvent: {}
+[2.319430] (-) TimerEvent: {}
+[2.422021] (-) TimerEvent: {}
+[2.525767] (-) TimerEvent: {}
+[2.620371] (custom_interfaces) StdoutLine: {'line': b'[  6%] Built target custom_interfaces__cpp\n'}
+[2.626979] (-) TimerEvent: {}
+[2.646236] (custom_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/add_two_ints__functions.c.o\x1b[0m\n'}
+[2.651020] (custom_interfaces) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[2.669564] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.727819] (-) TimerEvent: {}
+[2.730944] (custom_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.785664] (custom_interfaces) StdoutLine: {'line': b'[ 16%] Built target custom_interfaces__rosidl_generator_c\n'}
+[2.798191] (custom_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.828361] (-) TimerEvent: {}
+[2.928713] (-) TimerEvent: {}
+[3.002992] (custom_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[3.028934] (-) TimerEvent: {}
+[3.073667] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[3.129008] (-) TimerEvent: {}
+[3.230520] (-) TimerEvent: {}
+[3.332254] (-) TimerEvent: {}
+[3.432878] (-) TimerEvent: {}
+[3.517826] (custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.523274] (custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.533273] (-) TimerEvent: {}
+[3.582230] (custom_interfaces) StdoutLine: {'line': b'[ 32%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.600857] (custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.621315] (custom_interfaces) StdoutLine: {'line': b'[ 35%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.633409] (-) TimerEvent: {}
+[3.635535] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.733591] (-) TimerEvent: {}
+[3.833977] (-) TimerEvent: {}
+[3.849183] (custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[3.934316] (-) TimerEvent: {}
+[3.940718] (custom_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/add_two_ints__type_support_c.cpp.o\x1b[0m\n'}
+[4.035555] (-) TimerEvent: {}
+[4.137681] (-) TimerEvent: {}
+[4.239951] (-) TimerEvent: {}
+[4.312926] (custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.352923] (-) TimerEvent: {}
+[4.453800] (custom_interfaces) StdoutLine: {'line': b'[ 48%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[4.454092] (-) TimerEvent: {}
+[4.502873] (custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.554254] (-) TimerEvent: {}
+[4.654536] (-) TimerEvent: {}
+[4.691144] (custom_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.755846] (-) TimerEvent: {}
+[4.783572] (custom_interfaces) StdoutLine: {'line': b'[ 54%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.799275] (custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.856984] (-) TimerEvent: {}
+[4.957595] (-) TimerEvent: {}
+[5.025958] (custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/add_two_ints__type_support.c.o\x1b[0m\n'}
+[5.059820] (-) TimerEvent: {}
+[5.085501] (custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.154931] (custom_interfaces) StdoutLine: {'line': b'[ 64%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.160221] (-) TimerEvent: {}
+[5.260607] (-) TimerEvent: {}
+[5.347950] (custom_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[5.360657] (-) TimerEvent: {}
+[5.450989] (custom_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.462916] (-) TimerEvent: {}
+[5.565676] (-) TimerEvent: {}
+[5.671685] (-) TimerEvent: {}
+[5.674864] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[5.758931] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces\n'}
+[5.772589] (-) TimerEvent: {}
+[5.811932] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.873874] (-) TimerEvent: {}
+[5.974339] (-) TimerEvent: {}
+[6.082105] (-) TimerEvent: {}
+[6.182777] (-) TimerEvent: {}
+[6.286894] (-) TimerEvent: {}
+[6.388354] (-) TimerEvent: {}
+[6.442740] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.446461] (custom_interfaces) StdoutLine: {'line': b'creating custom_interfaces.egg-info\n'}
+[6.448117] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[6.449204] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[6.450253] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[6.464626] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[6.474451] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[6.474873] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[6.491388] (-) TimerEvent: {}
+[6.596232] (-) TimerEvent: {}
+[6.617862] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[6.696408] (-) TimerEvent: {}
+[6.800884] (-) TimerEvent: {}
+[6.901335] (-) TimerEvent: {}
+[7.003490] (-) TimerEvent: {}
+[7.104457] (-) TimerEvent: {}
+[7.210408] (-) TimerEvent: {}
+[7.315033] (-) TimerEvent: {}
+[7.352519] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__py\n'}
+[7.416043] (-) TimerEvent: {}
+[7.453872] (custom_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_add_two_ints_s.c.o\x1b[0m\n'}
+[7.525210] (-) TimerEvent: {}
+[7.626664] (-) TimerEvent: {}
+[7.728790] (-) TimerEvent: {}
+[7.773156] (custom_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.828958] (-) TimerEvent: {}
+[7.862620] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__rosidl_generator_py\n'}
+[7.932029] (-) TimerEvent: {}
+[7.960950] (custom_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.962089] (custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.032888] (-) TimerEvent: {}
+[8.136438] (-) TimerEvent: {}
+[8.242944] (-) TimerEvent: {}
+[8.343963] (-) TimerEvent: {}
+[8.446005] (-) TimerEvent: {}
+[8.457052] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.471997] (custom_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.546126] (-) TimerEvent: {}
+[8.649925] (-) TimerEvent: {}
+[8.718548] (custom_interfaces) StdoutLine: {'line': b'[ 93%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.726537] (custom_interfaces) StdoutLine: {'line': b'[ 93%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.750264] (-) TimerEvent: {}
+[8.796965] (custom_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.851840] (-) TimerEvent: {}
+[8.953282] (-) TimerEvent: {}
+[9.016943] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.055101] (-) TimerEvent: {}
+[9.090006] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[9.135463] (custom_interfaces) CommandEnded: {'returncode': 0}
+[9.164655] (-) TimerEvent: {}
+[9.267944] (-) TimerEvent: {}
+[9.370275] (-) TimerEvent: {}
+[9.406461] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[9.426847] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cagla/sercli_ws/build/custom_interfaces'], 'cwd': '/home/cagla/sercli_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cagla'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cagla/sercli_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cagla'), ('OLDPWD', '/home/cagla'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '895'), ('SYSTEMD_EXEC_PID', '1065'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '32752'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/cagla/sercli_ws/install:/home/cagla/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cagla'), ('JOURNAL_STREAM', '8:8723'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cagla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cagla-VirtualBox:@/tmp/.ICE-unix/1045,unix/cagla-VirtualBox:/tmp/.ICE-unix/1045'), ('INVOCATION_ID', 'f86543862ab24cccb7ea7e03a13c45e3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AT9RS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cagla/sercli_ws/install/add_integers:/home/cagla/sercli_ws/install/custom_interfaces:/home/cagla/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8e2d1f69-acb1-4a64-a54d-8abf22934454'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cagla/sercli_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cagla/sercli_ws/install/add_integers/lib/python3.10/site-packages:/home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cagla/sercli_ws/install/custom_interfaces:/home/cagla/sercli_ws/install/add_integers:/home/cagla/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[9.459848] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.460855] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[9.461793] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[9.468299] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[9.468484] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.468692] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[9.469026] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/add_two_ints.h\n'}
+[9.469442] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[9.469527] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__functions.c\n'}
+[9.469791] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__functions.h\n'}
+[9.469880] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__struct.h\n'}
+[9.471783] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__type_support.h\n'}
+[9.471927] (-) TimerEvent: {}
+[9.472305] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[9.473099] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[9.477341] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[9.484955] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[9.485237] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[9.485325] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[9.485459] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.485546] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[9.485620] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[9.485664] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[9.490150] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.492231] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.498244] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[9.498505] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[9.498597] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.498697] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[9.498901] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[9.499045] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[9.499150] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__type_support.c\n'}
+[9.499395] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.499496] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.499556] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[9.499612] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[9.499668] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[9.502512] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[9.502677] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/add_two_ints.hpp\n'}
+[9.502876] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[9.502991] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__traits.hpp\n'}
+[9.503054] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__struct.hpp\n'}
+[9.503113] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__builder.hpp\n'}
+[9.503169] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[9.503224] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[9.503280] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.503347] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[9.503418] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[9.503476] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[9.503543] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.503623] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.503695] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.507007] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[9.507113] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[9.507176] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[9.507235] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__type_support.cpp\n'}
+[9.507293] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.507349] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.507422] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.507480] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[9.509786] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[9.509950] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[9.510015] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[9.510088] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[9.510156] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.510228] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.510293] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.510364] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.511287] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[9.511502] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.511614] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[9.511729] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.511913] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[9.515397] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.516028] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.517085] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.517255] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv\n'}
+[9.517339] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_add_two_ints.py\n'}
+[9.518418] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py\n'}
+[9.518605] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_add_two_ints_s.c\n'}
+[9.518672] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[9.572117] (-) TimerEvent: {}
+[9.615948] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[9.616173] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...\n"}
+[9.616233] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...\n"}
+[9.616282] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...\n"}
+[9.616331] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_add_two_ints.py'...\n"}
+[9.623483] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.624079] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.624498] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.625008] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.625294] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.625794] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.626055] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[9.626840] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/cagla/sercli_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""\n'}
+[9.627062] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInts.idl\n'}
+[9.627291] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInts.srv\n'}
+[9.627534] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInts_Request.msg\n'}
+[9.627733] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInts_Response.msg\n'}
+[9.628776] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[9.628854] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[9.629084] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[9.629180] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.630694] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[9.631035] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[9.633705] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[9.637802] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[9.638066] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[9.638707] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[9.638961] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[9.647865] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[9.648184] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[9.648356] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.648487] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.648612] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.649364] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.649536] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.649671] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[9.649919] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.650115] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[9.650254] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.650385] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.652841] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.653411] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.653559] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[9.653687] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.655998] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[9.656113] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.656203] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.656275] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.656405] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.656497] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.656571] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.656643] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.657490] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.657637] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[9.659990] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[9.660099] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/cagla/sercli_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[9.667633] (custom_interfaces) CommandEnded: {'returncode': 0}
+[9.673072] (-) TimerEvent: {}
+[9.777631] (-) TimerEvent: {}
+[9.879115] (-) TimerEvent: {}
+[9.975088] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[9.980346] (-) TimerEvent: {}
+[9.980432] (add_integers) JobStarted: {'identifier': 'add_integers'}
+[10.080518] (-) TimerEvent: {}
+[10.185446] (-) TimerEvent: {}
+[10.285810] (-) TimerEvent: {}
+[10.386979] (-) TimerEvent: {}
+[10.487493] (-) TimerEvent: {}
+[10.590071] (-) TimerEvent: {}
+[10.692241] (-) TimerEvent: {}
+[10.794434] (-) TimerEvent: {}
+[10.894905] (-) TimerEvent: {}
+[10.999211] (-) TimerEvent: {}
+[11.100348] (-) TimerEvent: {}
+[11.200807] (-) TimerEvent: {}
+[11.301836] (-) TimerEvent: {}
+[11.314811] (add_integers) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/add_integers', 'build', '--build-base', '/home/cagla/sercli_ws/build/add_integers/build', 'install', '--record', '/home/cagla/sercli_ws/build/add_integers/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/cagla/sercli_ws/src/add_integers', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cagla', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cagla/sercli_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/cagla', 'OLDPWD': '/home/cagla', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'MANAGERPID': '895', 'SYSTEMD_EXEC_PID': '1065', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '32752', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/cagla/sercli_ws/install:/home/cagla/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'cagla', 'JOURNAL_STREAM': '8:8723', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cagla', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cagla-VirtualBox:@/tmp/.ICE-unix/1045,unix/cagla-VirtualBox:/tmp/.ICE-unix/1045', 'INVOCATION_ID': 'f86543862ab24cccb7ea7e03a13c45e3', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AT9RS2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cagla/sercli_ws/install/add_integers:/home/cagla/sercli_ws/install/custom_interfaces:/home/cagla/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:8e2d1f69-acb1-4a64-a54d-8abf22934454', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cagla/sercli_ws/build/add_integers', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cagla/sercli_ws/build/add_integers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cagla/sercli_ws/install/add_integers/lib/python3.10/site-packages:/home/cagla/sercli_ws/install/add_integers/lib/python3.10/site-packages:/home/cagla/sercli_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/cagla/sercli_ws/install/custom_interfaces'}, 'shell': False}
+[11.406043] (-) TimerEvent: {}
+[11.507478] (-) TimerEvent: {}
+[11.608442] (-) TimerEvent: {}
+[11.684280] (add_integers) StdoutLine: {'line': b'running egg_info\n'}
+[11.685478] (add_integers) StdoutLine: {'line': b'creating ../../build/add_integers/add_integers.egg-info\n'}
+[11.685554] (add_integers) StdoutLine: {'line': b'writing ../../build/add_integers/add_integers.egg-info/PKG-INFO\n'}
+[11.685611] (add_integers) StdoutLine: {'line': b'writing dependency_links to ../../build/add_integers/add_integers.egg-info/dependency_links.txt\n'}
+[11.685663] (add_integers) StdoutLine: {'line': b'writing entry points to ../../build/add_integers/add_integers.egg-info/entry_points.txt\n'}
+[11.685712] (add_integers) StdoutLine: {'line': b'writing requirements to ../../build/add_integers/add_integers.egg-info/requires.txt\n'}
+[11.685760] (add_integers) StdoutLine: {'line': b'writing top-level names to ../../build/add_integers/add_integers.egg-info/top_level.txt\n'}
+[11.685809] (add_integers) StdoutLine: {'line': b"writing manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'\n"}
+[11.692211] (add_integers) StdoutLine: {'line': b"reading manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'\n"}
+[11.692369] (add_integers) StdoutLine: {'line': b"writing manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'\n"}
+[11.692415] (add_integers) StdoutLine: {'line': b'running build\n'}
+[11.692458] (add_integers) StdoutLine: {'line': b'running build_py\n'}
+[11.692499] (add_integers) StdoutLine: {'line': b'creating /home/cagla/sercli_ws/build/add_integers/build\n'}
+[11.692540] (add_integers) StdoutLine: {'line': b'creating /home/cagla/sercli_ws/build/add_integers/build/lib\n'}
+[11.692580] (add_integers) StdoutLine: {'line': b'creating /home/cagla/sercli_ws/build/add_integers/build/lib/add_integers\n'}
+[11.692620] (add_integers) StdoutLine: {'line': b'copying add_integers/service_node.py -> /home/cagla/sercli_ws/build/add_integers/build/lib/add_integers\n'}
+[11.693794] (add_integers) StdoutLine: {'line': b'copying add_integers/__init__.py -> /home/cagla/sercli_ws/build/add_integers/build/lib/add_integers\n'}
+[11.697097] (add_integers) StdoutLine: {'line': b'copying add_integers/client_node.py -> /home/cagla/sercli_ws/build/add_integers/build/lib/add_integers\n'}
+[11.697214] (add_integers) StdoutLine: {'line': b'running install\n'}
+[11.697260] (add_integers) StdoutLine: {'line': b'running install_lib\n'}
+[11.697303] (add_integers) StdoutLine: {'line': b'creating /home/cagla/sercli_ws/install/add_integers/lib/python3.10/site-packages/add_integers\n'}
+[11.698109] (add_integers) StdoutLine: {'line': b'copying /home/cagla/sercli_ws/build/add_integers/build/lib/add_integers/service_node.py -> /home/cagla/sercli_ws/install/add_integers/lib/python3.10/site-packages/add_integers\n'}
+[11.698194] (add_integers) StdoutLine: {'line': b'copying /home/cagla/sercli_ws/build/add_integers/build/lib/add_integers/__init__.py -> /home/cagla/sercli_ws/install/add_integers/lib/python3.10/site-packages/add_integers\n'}
+[11.698239] (add_integers) StdoutLine: {'line': b'copying /home/cagla/sercli_ws/build/add_integers/build/lib/add_integers/client_node.py -> /home/cagla/sercli_ws/install/add_integers/lib/python3.10/site-packages/add_integers\n'}
+[11.698282] (add_integers) StdoutLine: {'line': b'byte-compiling /home/cagla/sercli_ws/install/add_integers/lib/python3.10/site-packages/add_integers/service_node.py to service_node.cpython-310.pyc\n'}
+[11.699050] (add_integers) StdoutLine: {'line': b'byte-compiling /home/cagla/sercli_ws/install/add_integers/lib/python3.10/site-packages/add_integers/__init__.py to __init__.cpython-310.pyc\n'}
+[11.699167] (add_integers) StdoutLine: {'line': b'byte-compiling /home/cagla/sercli_ws/install/add_integers/lib/python3.10/site-packages/add_integers/client_node.py to client_node.cpython-310.pyc\n'}
+[11.699222] (add_integers) StdoutLine: {'line': b'running install_data\n'}
+[11.699366] (add_integers) StdoutLine: {'line': b'creating /home/cagla/sercli_ws/install/add_integers/share/ament_index\n'}
+[11.699484] (add_integers) StdoutLine: {'line': b'creating /home/cagla/sercli_ws/install/add_integers/share/ament_index/resource_index\n'}
+[11.699543] (add_integers) StdoutLine: {'line': b'creating /home/cagla/sercli_ws/install/add_integers/share/ament_index/resource_index/packages\n'}
+[11.699753] (add_integers) StdoutLine: {'line': b'copying resource/add_integers -> /home/cagla/sercli_ws/install/add_integers/share/ament_index/resource_index/packages\n'}
+[11.700805] (add_integers) StdoutLine: {'line': b'copying package.xml -> /home/cagla/sercli_ws/install/add_integers/share/add_integers\n'}
+[11.700987] (add_integers) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.704879] (add_integers) StdoutLine: {'line': b'Copying ../../build/add_integers/add_integers.egg-info to /home/cagla/sercli_ws/install/add_integers/lib/python3.10/site-packages/add_integers-0.0.0-py3.10.egg-info\n'}
+[11.705057] (add_integers) StdoutLine: {'line': b'running install_scripts\n'}
+[11.708586] (-) TimerEvent: {}
+[11.729851] (add_integers) StdoutLine: {'line': b'Installing addition_client script to /home/cagla/sercli_ws/install/add_integers/lib/add_integers\n'}
+[11.730031] (add_integers) StdoutLine: {'line': b'Installing addition_service script to /home/cagla/sercli_ws/install/add_integers/lib/add_integers\n'}
+[11.730200] (add_integers) StdoutLine: {'line': b"writing list of installed files to '/home/cagla/sercli_ws/build/add_integers/install.log'\n"}
+[11.795942] (add_integers) CommandEnded: {'returncode': 0}
+[11.800920] (add_integers) JobEnded: {'identifier': 'add_integers', 'rc': 0}
+[11.801848] (-) EventReactorShutdown: {}

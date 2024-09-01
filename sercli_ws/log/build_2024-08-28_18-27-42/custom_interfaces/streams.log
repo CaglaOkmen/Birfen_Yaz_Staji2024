@@ -1,0 +1,29 @@
+[0.026s] Invoking command in '/home/cagla/sercli_ws/build/custom_interfaces': /usr/bin/cmake /home/cagla/sercli_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/cagla/sercli_ws/install/custom_interfaces
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.293s] -- The CXX compiler identification is GNU 11.4.0
+[0.307s] -- Detecting C compiler ABI info
+[0.429s] -- Detecting C compiler ABI info - done
+[0.435s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.435s] -- Detecting C compile features
+[0.435s] -- Detecting C compile features - done
+[0.440s] -- Detecting CXX compiler ABI info
+[0.549s] -- Detecting CXX compiler ABI info - done
+[0.560s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.561s] -- Detecting CXX compile features
+[0.563s] -- Detecting CXX compile features - done
+[0.565s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.756s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.870s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.872s] -- Configuring incomplete, errors occurred!
+[0.872s] [31mCMake Error at /opt/ros/humble/share/rosidl_typesupport_c/cmake/get_used_typesupports.cmake:35 (message):
+[0.872s]   No 'rosidl_typesupport_c' found
+[0.872s] Call Stack (most recent call first):
+[0.872s]   /opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:8 (get_used_typesupports)
+[0.873s]   /opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+[0.873s]   /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)
+[0.873s]   /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[0.873s]   CMakeLists.txt:10 (find_package)
+[0.873s] 
+[0.873s] [0m
+[0.873s] See also "/home/cagla/sercli_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[0.880s] Invoked command in '/home/cagla/sercli_ws/build/custom_interfaces' returned '1': /usr/bin/cmake /home/cagla/sercli_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/cagla/sercli_ws/install/custom_interfaces

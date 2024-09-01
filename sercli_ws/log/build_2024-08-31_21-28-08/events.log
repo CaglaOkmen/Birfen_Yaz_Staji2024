@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.009028] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.017972] (add_integers) JobQueued: {'identifier': 'add_integers', 'dependencies': OrderedDict([('custom_interfaces', '/home/cagla/sercli_ws/install/custom_interfaces')])}
+[0.020454] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.100165] (-) TimerEvent: {}
+[0.206437] (-) TimerEvent: {}
+[0.311133] (-) TimerEvent: {}
+[0.372330] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 1}
+[0.389495] (add_integers) JobSkipped: {'identifier': 'add_integers'}
+[0.389688] (-) EventReactorShutdown: {}

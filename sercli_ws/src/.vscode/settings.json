@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/cagla/den_ws/install/talker_listener/lib/python3.10/site-packages",
+        "/home/cagla/deneme_ws/install/kontrol/lib/python3.10/site-packages",
+        "/home/cagla/ros2_ws/build/my_robot_controller",
+        "/home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/cagla/den_ws/install/talker_listener/lib/python3.10/site-packages",
+        "/home/cagla/deneme_ws/install/kontrol/lib/python3.10/site-packages",
+        "/home/cagla/ros2_ws/build/my_robot_controller",
+        "/home/cagla/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
