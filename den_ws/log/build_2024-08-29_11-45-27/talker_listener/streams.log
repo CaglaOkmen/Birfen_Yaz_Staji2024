@@ -1,0 +1,28 @@
+[0.642s] Invoking command in '/home/cagla/den_ws/build/talker_listener': PYTHONPATH=/home/cagla/den_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cagla/den_ws/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cagla/den_ws/build/talker_listener/build --no-deps symlink_data
+[0.917s] running develop
+[0.922s] /home/cagla/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:156: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.922s]   warnings.warn(
+[1.085s] running egg_info
+[1.085s] creating talker_listener.egg-info
+[1.085s] writing talker_listener.egg-info/PKG-INFO
+[1.085s] writing dependency_links to talker_listener.egg-info/dependency_links.txt
+[1.085s] writing entry points to talker_listener.egg-info/entry_points.txt
+[1.086s] writing requirements to talker_listener.egg-info/requires.txt
+[1.086s] writing top-level names to talker_listener.egg-info/top_level.txt
+[1.086s] writing manifest file 'talker_listener.egg-info/SOURCES.txt'
+[1.087s] reading manifest file 'talker_listener.egg-info/SOURCES.txt'
+[1.087s] writing manifest file 'talker_listener.egg-info/SOURCES.txt'
+[1.089s] running build_ext
+[1.089s] Creating /home/cagla/den_ws/install/talker_listener/lib/python3.10/site-packages/talker-listener.egg-link (link to .)
+[1.090s] Installing listenerNode script to /home/cagla/den_ws/install/talker_listener/lib/talker_listener
+[1.090s] Installing talkerNode script to /home/cagla/den_ws/install/talker_listener/lib/talker_listener
+[1.090s] 
+[1.090s] Installed /home/cagla/den_ws/build/talker_listener
+[1.091s] running symlink_data
+[1.091s] creating /home/cagla/den_ws/install/talker_listener/share/ament_index
+[1.091s] creating /home/cagla/den_ws/install/talker_listener/share/ament_index/resource_index
+[1.091s] creating /home/cagla/den_ws/install/talker_listener/share/ament_index/resource_index/packages
+[1.091s] symbolically linking /home/cagla/den_ws/build/talker_listener/resource/talker_listener -> /home/cagla/den_ws/install/talker_listener/share/ament_index/resource_index/packages
+[1.091s] symbolically linking /home/cagla/den_ws/build/talker_listener/package.xml -> /home/cagla/den_ws/install/talker_listener/share/talker_listener
+[1.091s] creating /home/cagla/den_ws/install/talker_listener/share/talker_listener/launch
+[1.122s] Invoked command in '/home/cagla/den_ws/build/talker_listener' returned '0': PYTHONPATH=/home/cagla/den_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cagla/den_ws/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/cagla/den_ws/build/talker_listener/build --no-deps symlink_data

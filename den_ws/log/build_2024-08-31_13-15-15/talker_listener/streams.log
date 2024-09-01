@@ -1,0 +1,22 @@
+[1.092s] Invoking command in '/home/cagla/den_ws/src/talker_listener': PYTHONPATH=/home/cagla/den_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cagla/den_ws/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/cagla/den_ws/build/talker_listener/build install --record /home/cagla/den_ws/build/talker_listener/install.log --single-version-externally-managed install_data
+[1.525s] running egg_info
+[1.526s] writing ../../build/talker_listener/talker_listener.egg-info/PKG-INFO
+[1.526s] writing dependency_links to ../../build/talker_listener/talker_listener.egg-info/dependency_links.txt
+[1.527s] writing entry points to ../../build/talker_listener/talker_listener.egg-info/entry_points.txt
+[1.527s] writing requirements to ../../build/talker_listener/talker_listener.egg-info/requires.txt
+[1.527s] writing top-level names to ../../build/talker_listener/talker_listener.egg-info/top_level.txt
+[1.530s] reading manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[1.535s] writing manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[1.535s] running build
+[1.536s] running build_py
+[1.540s] running install
+[1.540s] running install_lib
+[1.542s] running install_data
+[1.544s] running install_egg_info
+[1.546s] removing '/home/cagla/den_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener-0.0.0-py3.10.egg-info' (and everything under it)
+[1.551s] Copying ../../build/talker_listener/talker_listener.egg-info to /home/cagla/den_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener-0.0.0-py3.10.egg-info
+[1.556s] running install_scripts
+[1.594s] Installing listenerNode script to /home/cagla/den_ws/install/talker_listener/lib/talker_listener
+[1.596s] Installing talkerNode script to /home/cagla/den_ws/install/talker_listener/lib/talker_listener
+[1.597s] writing list of installed files to '/home/cagla/den_ws/build/talker_listener/install.log'
+[1.628s] Invoked command in '/home/cagla/den_ws/src/talker_listener' returned '0': PYTHONPATH=/home/cagla/den_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cagla/den_ws/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/cagla/den_ws/build/talker_listener/build install --record /home/cagla/den_ws/build/talker_listener/install.log --single-version-externally-managed install_data
