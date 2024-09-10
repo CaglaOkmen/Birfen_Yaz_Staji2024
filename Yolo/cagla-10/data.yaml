@@ -1,0 +1,13 @@
+names:
+- angelina
+- cagla
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: cagla
+  url: https://universe.roboflow.com/ws-sknfg/cagla/dataset/10
+  version: 10
+  workspace: ws-sknfg
+test: test/images
+train: train/images
+val: valid/images
