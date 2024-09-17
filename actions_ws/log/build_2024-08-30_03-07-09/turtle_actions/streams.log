@@ -1,0 +1,22 @@
+[1.478s] Invoking command in '/home/cagla/bir_ws/src/turtle_actions': PYTHONPATH=/home/cagla/bir_ws/build/turtle_actions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cagla/bir_ws/install/turtle_actions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_actions build --build-base /home/cagla/bir_ws/build/turtle_actions/build install --record /home/cagla/bir_ws/build/turtle_actions/install.log --single-version-externally-managed install_data
+[1.928s] running egg_info
+[1.939s] writing ../../build/turtle_actions/turtle_actions.egg-info/PKG-INFO
+[1.940s] writing dependency_links to ../../build/turtle_actions/turtle_actions.egg-info/dependency_links.txt
+[1.940s] writing entry points to ../../build/turtle_actions/turtle_actions.egg-info/entry_points.txt
+[1.940s] writing requirements to ../../build/turtle_actions/turtle_actions.egg-info/requires.txt
+[1.940s] writing top-level names to ../../build/turtle_actions/turtle_actions.egg-info/top_level.txt
+[1.940s] reading manifest file '../../build/turtle_actions/turtle_actions.egg-info/SOURCES.txt'
+[1.940s] writing manifest file '../../build/turtle_actions/turtle_actions.egg-info/SOURCES.txt'
+[1.940s] running build
+[1.940s] running build_py
+[1.941s] running install
+[1.941s] running install_lib
+[1.941s] running install_data
+[1.941s] running install_egg_info
+[1.951s] removing '/home/cagla/bir_ws/install/turtle_actions/lib/python3.10/site-packages/turtle_actions-0.0.0-py3.10.egg-info' (and everything under it)
+[1.951s] Copying ../../build/turtle_actions/turtle_actions.egg-info to /home/cagla/bir_ws/install/turtle_actions/lib/python3.10/site-packages/turtle_actions-0.0.0-py3.10.egg-info
+[1.954s] running install_scripts
+[1.980s] Installing client script to /home/cagla/bir_ws/install/turtle_actions/lib/turtle_actions
+[1.984s] Installing server script to /home/cagla/bir_ws/install/turtle_actions/lib/turtle_actions
+[1.985s] writing list of installed files to '/home/cagla/bir_ws/build/turtle_actions/install.log'
+[2.065s] Invoked command in '/home/cagla/bir_ws/src/turtle_actions' returned '0': PYTHONPATH=/home/cagla/bir_ws/build/turtle_actions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cagla/bir_ws/install/turtle_actions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_actions build --build-base /home/cagla/bir_ws/build/turtle_actions/build install --record /home/cagla/bir_ws/build/turtle_actions/install.log --single-version-externally-managed install_data

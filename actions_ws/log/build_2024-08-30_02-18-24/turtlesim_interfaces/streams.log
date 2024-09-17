@@ -1,0 +1,20 @@
+[0.015s] Invoking command in '/home/cagla/bir_ws/build/turtlesim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cagla/yeni_ws/install/actions_py:/home/cagla/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/cagla/bir_ws/build/turtlesim_interfaces -- -j2 -l2
+[0.076s] Invoked command in '/home/cagla/bir_ws/build/turtlesim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cagla/yeni_ws/install/actions_py:/home/cagla/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/cagla/bir_ws/build/turtlesim_interfaces -- -j2 -l2
+[0.137s] Invoking command in '/home/cagla/bir_ws/build/turtlesim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cagla/yeni_ws/install/actions_py:/home/cagla/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/cagla/bir_ws/build/turtlesim_interfaces
+[0.150s] -- Install configuration: ""
+[0.152s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/ament_index/resource_index/package_run_dependencies/turtlesim_interfaces
+[0.152s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/ament_index/resource_index/parent_prefix_path/turtlesim_interfaces
+[0.153s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/ament_prefix_path.sh
+[0.154s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/ament_prefix_path.dsv
+[0.154s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/path.sh
+[0.154s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/environment/path.dsv
+[0.156s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.bash
+[0.157s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.sh
+[0.157s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.zsh
+[0.157s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/local_setup.dsv
+[0.157s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/package.dsv
+[0.157s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/ament_index/resource_index/packages/turtlesim_interfaces
+[0.157s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfacesConfig.cmake
+[0.157s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/cmake/turtlesim_interfacesConfig-version.cmake
+[0.157s] -- Up-to-date: /home/cagla/bir_ws/install/turtlesim_interfaces/share/turtlesim_interfaces/package.xml
+[0.163s] Invoked command in '/home/cagla/bir_ws/build/turtlesim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cagla/yeni_ws/install/actions_py:/home/cagla/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/cagla/bir_ws/build/turtlesim_interfaces
