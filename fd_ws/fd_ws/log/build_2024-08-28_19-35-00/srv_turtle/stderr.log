@@ -1,0 +1,5 @@
+  File "/home/cagla/fd_ws/install/srv_turtle/lib/python3.10/site-packages/srv_turtle/service_node.py", line 37
+    if SetBool.Request.data
+                           ^
+SyntaxError: expected ':'
+

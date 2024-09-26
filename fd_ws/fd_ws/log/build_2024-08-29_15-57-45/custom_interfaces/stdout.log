@@ -1,0 +1,5 @@
+[  3%] Built target custom_interfaces__cpp
+[  6%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/target_cor__functions.c.o[0m
+[  6%] Built target ament_cmake_python_copy_custom_interfaces
+[  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/target_cor__type_support.cpp.o[0m

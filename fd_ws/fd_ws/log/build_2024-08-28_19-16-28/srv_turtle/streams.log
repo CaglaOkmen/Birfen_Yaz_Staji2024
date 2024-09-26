@@ -1,0 +1,24 @@
+[0.846s] Invoking command in '/home/cagla/fd_ws/src/srv_turtle': PYTHONPATH=/home/cagla/fd_ws/build/srv_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cagla/fd_ws/install/srv_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/srv_turtle build --build-base /home/cagla/fd_ws/build/srv_turtle/build install --record /home/cagla/fd_ws/build/srv_turtle/install.log --single-version-externally-managed install_data
+[1.145s] running egg_info
+[1.146s] writing ../../build/srv_turtle/srv_turtle.egg-info/PKG-INFO
+[1.146s] writing dependency_links to ../../build/srv_turtle/srv_turtle.egg-info/dependency_links.txt
+[1.146s] writing entry points to ../../build/srv_turtle/srv_turtle.egg-info/entry_points.txt
+[1.146s] writing requirements to ../../build/srv_turtle/srv_turtle.egg-info/requires.txt
+[1.146s] writing top-level names to ../../build/srv_turtle/srv_turtle.egg-info/top_level.txt
+[1.147s] reading manifest file '../../build/srv_turtle/srv_turtle.egg-info/SOURCES.txt'
+[1.147s] writing manifest file '../../build/srv_turtle/srv_turtle.egg-info/SOURCES.txt'
+[1.148s] running build
+[1.148s] running build_py
+[1.148s] copying srv_turtle/service_node.py -> /home/cagla/fd_ws/build/srv_turtle/build/lib/srv_turtle
+[1.149s] running install
+[1.149s] running install_lib
+[1.149s] copying /home/cagla/fd_ws/build/srv_turtle/build/lib/srv_turtle/service_node.py -> /home/cagla/fd_ws/install/srv_turtle/lib/python3.10/site-packages/srv_turtle
+[1.152s] byte-compiling /home/cagla/fd_ws/install/srv_turtle/lib/python3.10/site-packages/srv_turtle/service_node.py to service_node.cpython-310.pyc
+[1.156s] running install_data
+[1.157s] running install_egg_info
+[1.158s] removing '/home/cagla/fd_ws/install/srv_turtle/lib/python3.10/site-packages/srv_turtle-0.0.0-py3.10.egg-info' (and everything under it)
+[1.159s] Copying ../../build/srv_turtle/srv_turtle.egg-info to /home/cagla/fd_ws/install/srv_turtle/lib/python3.10/site-packages/srv_turtle-0.0.0-py3.10.egg-info
+[1.161s] running install_scripts
+[1.190s] Installing service_node script to /home/cagla/fd_ws/install/srv_turtle/lib/srv_turtle
+[1.191s] writing list of installed files to '/home/cagla/fd_ws/build/srv_turtle/install.log'
+[1.228s] Invoked command in '/home/cagla/fd_ws/src/srv_turtle' returned '0': PYTHONPATH=/home/cagla/fd_ws/build/srv_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cagla/fd_ws/install/srv_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/srv_turtle build --build-base /home/cagla/fd_ws/build/srv_turtle/build install --record /home/cagla/fd_ws/build/srv_turtle/install.log --single-version-externally-managed install_data

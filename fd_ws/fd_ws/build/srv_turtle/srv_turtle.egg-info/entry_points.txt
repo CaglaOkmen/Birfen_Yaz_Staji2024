@@ -1,0 +1,3 @@
+[console_scripts]
+service_node = srv_turtle.service_node:main
+

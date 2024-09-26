@@ -1,0 +1,24 @@
+[0.019s] Invoking command in '/home/cagla/fd_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cagla/fd_ws/install/srv_turtle:/home/cagla/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/cagla/fd_ws/build/custom_interfaces -- -j2 -l2
+[0.102s] [  3%] Built target custom_interfaces__cpp
+[0.104s] [  6%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/target_cor__functions.c.o[0m
+[0.140s] [  6%] Built target ament_cmake_python_copy_custom_interfaces
+[0.162s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.168s] In file included from [01m[K/home/cagla/fd_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/target_cor__functions.h:19[m[K,
+[0.169s]                  from [01m[K/home/cagla/fd_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/target_cor__functions.c:4[m[K:
+[0.169s] [01m[K/home/cagla/fd_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/target_cor__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/point__struct.h: No such file or directory
+[0.169s]    24 | #include [01;31m[K"geometry_msgs/msg/detail/point__struct.h"[m[K
+[0.169s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.169s] compilation terminated.
+[0.171s] gmake[2]: *** [CMakeFiles/custom_interfaces__rosidl_generator_c.dir/build.make:137: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/target_cor__functions.c.o] Error 1
+[0.171s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/custom_interfaces__rosidl_generator_c.dir/all] Error 2
+[0.171s] gmake[1]: *** Waiting for unfinished jobs....
+[0.419s] [ 12%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/target_cor__type_support.cpp.o[0m
+[0.523s] In file included from [01m[K/home/cagla/fd_ws/build/custom_interfaces/rosidl_typesupport_cpp/custom_interfaces/msg/target_cor__type_support.cpp:7[m[K:
+[0.523s] [01m[K/home/cagla/fd_ws/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/target_cor__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/point__struct.hpp: No such file or directory
+[0.523s]    20 | #include [01;31m[K"geometry_msgs/msg/detail/point__struct.hpp"[m[K
+[0.523s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.523s] compilation terminated.
+[0.524s] gmake[2]: *** [CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/build.make:118: CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/target_cor__type_support.cpp.o] Error 1
+[0.525s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[0.525s] gmake: *** [Makefile:146: all] Error 2
+[0.527s] Invoked command in '/home/cagla/fd_ws/build/custom_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cagla/fd_ws/install/srv_turtle:/home/cagla/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/cagla/fd_ws/build/custom_interfaces -- -j2 -l2

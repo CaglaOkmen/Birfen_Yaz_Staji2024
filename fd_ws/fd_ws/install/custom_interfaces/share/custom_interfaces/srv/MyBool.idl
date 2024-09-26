@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/MyBool.srv
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module srv {
+    struct MyBool_Request {
+      boolean x;
+    };
+    struct MyBool_Response {
+      boolean success;
+    };
+  };
+};

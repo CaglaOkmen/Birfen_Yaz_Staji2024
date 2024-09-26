@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/srv_turtle/srv_turtle.egg-info/PKG-INFO
+writing dependency_links to ../../build/srv_turtle/srv_turtle.egg-info/dependency_links.txt
+writing entry points to ../../build/srv_turtle/srv_turtle.egg-info/entry_points.txt
+writing requirements to ../../build/srv_turtle/srv_turtle.egg-info/requires.txt
+writing top-level names to ../../build/srv_turtle/srv_turtle.egg-info/top_level.txt
+reading manifest file '../../build/srv_turtle/srv_turtle.egg-info/SOURCES.txt'
+writing manifest file '../../build/srv_turtle/srv_turtle.egg-info/SOURCES.txt'
+running build
+running build_py
+copying srv_turtle/service_node.py -> /home/cagla/fd_ws/build/srv_turtle/build/lib/srv_turtle
+running install
+running install_lib
+copying /home/cagla/fd_ws/build/srv_turtle/build/lib/srv_turtle/service_node.py -> /home/cagla/fd_ws/install/srv_turtle/lib/python3.10/site-packages/srv_turtle
+byte-compiling /home/cagla/fd_ws/install/srv_turtle/lib/python3.10/site-packages/srv_turtle/service_node.py to service_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/cagla/fd_ws/install/srv_turtle/lib/python3.10/site-packages/srv_turtle-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/srv_turtle/srv_turtle.egg-info to /home/cagla/fd_ws/install/srv_turtle/lib/python3.10/site-packages/srv_turtle-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/cagla/fd_ws/build/srv_turtle/install.log'
